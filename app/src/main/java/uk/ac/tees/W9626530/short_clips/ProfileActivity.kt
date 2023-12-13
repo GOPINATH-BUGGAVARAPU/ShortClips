@@ -136,7 +136,7 @@ class ProfileActivity : AppCompatActivity() {
             binding.profileUsername.text = "@" + username
             if (profileUserModel.follwerlist.contains(currentUserId))
                 binding.profileBtn.text = "Unfollow"
-                binding.progressBar.visibility = View.INVISIBLE
+
 
             Firebase.firestore.collection("videos")
                 .whereEqualTo("uploaderId", profileUserId)
