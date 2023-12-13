@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34246471616",
+    "project_id": "short-clips-7fd71",
+    "storage_bucket": "short-clips-7fd71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34246471616:android:d73e4f6ab3c0f429012225",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.W9626530.short_clips"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmG52_Wa8-6pdKKB9EyY4OEso9bx7EJ3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

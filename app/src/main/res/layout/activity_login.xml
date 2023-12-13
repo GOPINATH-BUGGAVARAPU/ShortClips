@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="16dp"
+    tools:context="uk.ac.tees.W9626530.short_clips.LoginActivity">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Clips"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.07"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's go..."
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:layout_margin="12dp"/>
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="147dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:padding="1dp"
+            android:text="Done"
+            android:textSize="25dp" />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/progress_bar"
+            android:layout_margin="12dp"
+            android:visibility="gone"
+            android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/go_to_signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
