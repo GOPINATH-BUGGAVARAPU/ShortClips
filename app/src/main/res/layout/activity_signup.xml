@@ -63,13 +63,13 @@
 
     <Button
         android:id="@+id/submit_btn"
-        android:layout_width="175dp"
-        android:layout_height="60dp"
+        android:layout_width="205dp"
+        android:layout_height="57dp"
         android:layout_margin="12dp"
         android:padding="12dp"
+        android:text="Register"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:text="Register" />
+        android:textStyle="bold" />
         <ProgressBar
             android:layout_width="match_parent"
             android:layout_height="60dp"
